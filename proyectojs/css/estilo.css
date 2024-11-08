@@ -21,7 +21,6 @@ a{
 
 aside{
     padding: 2rem;
-    padding-right: 0;
     position: sticky;
     top: 0;
     height: 100vh;
@@ -54,9 +53,8 @@ header h1{
     background-color: rgb(231, 230, 230);
     color: rgb(27, 75, 27);
     width: 100%;
-    border-bottom-left-radius: 1rem;
-    border-top-left-radius: 1rem;
-}
+    border-radius: 1rem;
+}    
 
 .boton-carrito{
     color: white;
@@ -71,7 +69,6 @@ header h1{
 
 main{
     margin: 2rem;
-    margin-left: 0;
     background-color: rgb(231, 230, 230);
     padding: 2rem;
     border-radius: 2rem;
